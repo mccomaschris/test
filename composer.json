@@ -18,6 +18,7 @@
         "laravel/pail": "^1.2.2",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.41",
+        "mccomaschris/thundr-cli": "@dev",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
         "phpunit/phpunit": "^11.5.3"
@@ -60,6 +61,12 @@
             "dont-discover": []
         }
     },
+	"repositories": [
+		{
+			"type": "path",
+			"url": "~/projects/thundr-cli"
+		}
+	],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",

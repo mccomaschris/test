@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "88a16c6b2775b415cf25c6a2cc1ebb54",
     "packages": [
         {
             "name": "brick/math",
@@ -6180,6 +6180,47 @@
             "time": "2025-01-24T15:45:36+00:00"
         },
         {
+            "name": "mccomaschris/thundr-cli",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "/Users/cmccomas/projects/thundr-cli",
+                "reference": "02f44f3d389feb0f4741bec7b9b70143b5e55a28"
+            },
+            "require": {
+                "illuminate/support": "^12.0",
+                "php": "^8.3",
+                "symfony/process": "^7.2",
+                "symfony/yaml": "^7.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mccomaschris\\ThundrCli\\ThundrServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mccomaschris\\ThundrCli\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christopher McComas",
+                    "email": "mccomas.chris@gmail.com"
+                }
+            ],
+            "description": "A CLI tool to deploy Thundr sites from your dev env.",
+            "transport-options": {
+                "relative": false
+            }
+        },
+        {
             "name": "mockery/mockery",
             "version": "1.6.12",
             "source": {
@@ -8065,7 +8106,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "mccomaschris/thundr-cli": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

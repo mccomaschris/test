@@ -1,0 +1,5 @@
+root_domain: test.cmccomas.com
+repo: git@github.com:mccomaschris/test
+branch: main
+statamic: false
+php_version: 8.3
