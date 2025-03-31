@@ -21,3 +21,6 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+/storage/logs/thundr/
+/storage/logs/thundr/*.log
+/storage/framework/thundr

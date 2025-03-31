@@ -1,5 +1,7 @@
-root_domain: test.cmccomas.com
-repo: git@github.com:mccomaschris/test
+root_domain: dummy.cmccomas.com
+repo: mccomaschris/test
 branch: main
-statamic: false
-php_version: 8.3
+php_version: '8.3'
+project_type: laravel
+server: thundr-test
+operating_system: ubuntu
