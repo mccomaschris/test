@@ -3,5 +3,5 @@ repo: mccomaschris/test
 branch: main
 php_version: '8.3'
 project_type: laravel
-server: thundr-test
+server: thundr-01
 operating_system: ubuntu

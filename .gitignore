@@ -24,3 +24,6 @@ yarn-error.log
 /storage/logs/thundr/
 /storage/logs/thundr/*.log
 /storage/framework/thundr
+
+/storage/framework/thundr-files/
+/storage/logs/
